@@ -5,8 +5,8 @@ const sendMessageBtn = document.getElementById("sendMessageBtn");
 
 // Configuration
 const SYNTHESIS_DELAY = 1000; // 1 second delay
-const CROSSFADE_DURATION = 1500; //  (in milliseconds)
-const CROSSFADE_START_BEFORE_END = 3000; // Start crossfade this many ms before response video ends
+const CROSSFADE_DURATION = 300; // 300ms (in milliseconds)
+const CROSSFADE_START_BEFORE_END = 600; // Start crossfade this many ms before response video ends (CROSSFADE_DURATION * 2 to ensure completion)
 
 // State management
 let isProcessing = false;
